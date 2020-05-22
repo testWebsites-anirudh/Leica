@@ -142,7 +142,7 @@ footer .footer .social-links .yt-link {
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  body, .fullpage {
     overflow-x: hidden;
   }
   .overlay-active {
@@ -374,12 +374,18 @@ footer .footer .social-links .yt-link {
 }
 
 @media screen and (max-width: 1200px) {
+  body, .fullpage {
+    overflow-x: hidden;
+  }
   .page-2 .cards {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 800px) {
+  body, .fullpage {
+    overflow-x: hidden;
+  }
   .page-2 h1 {
     font-size: 38px;
     margin-bottom: 20px;
